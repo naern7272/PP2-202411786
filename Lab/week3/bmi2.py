@@ -1,0 +1,12 @@
+#문제
+
+#여러 학생들의 키와 몸무게를 리스트로 입력 받아 BMI 리스트를 출력하는
+#함수와 테스트하는 함수를 작성하시오.
+#BMI함수는 지난 시간에 작성한 get_bmi 함수를 이용하여 작성하시오.
+
+
+def get_bmi(height, weight):
+    bmi = weight / (height * height)
+    return bmi
+
+def 
